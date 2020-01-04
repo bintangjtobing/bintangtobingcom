@@ -162,20 +162,19 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-9 col-sm-8">
-                                                        <h4>Alex Smith</h4>
+                                                        <h4>Bintang Tobing</h4>
                                                         <div class="loc">
-                                                            <i class="fas fa-map-marked-alt"></i> New York, USA
+                                                            <i class="fas fa-map-marked-alt"></i> Medan, Indonesia
                                                         </div>
-                                                        <p>Hello! I’m Alex Smith a self-taught & award winning Digital
-                                                            Designer & Developer with over five years work experience. I
-                                                            started in my children’s room, got pro at renowned digital
-                                                            agencies akij co and nork blue lebel. Now I’m based in USA,
-                                                            America, working for Apple fredmansky and enjoying the life
-                                                            in the countryside.
+                                                        <p>Hello! I am Bintang Tobing, a self-taught Digital Designer &
+                                                            Developer with more than 3 years of work experience. I
+                                                            started a program since I was 14 years old, I started it
+                                                            from the HTML program language.
                                                         </p>
-                                                        <p>I have couple of hobbies but I like to travel. I have already
-                                                            travelled almost all the districts of our country with my
-                                                            father. I am fond of fruit.
+                                                        <p>
+                                                            I have several hobbies but I like to travel. I have traveled
+                                                            almost all districts of our country with my father. I love
+                                                            fruit.
                                                         </p>
                                                     </div>
 
@@ -1154,7 +1153,7 @@
                                             </div>
                                             <div class="col-lg-4 col-sm-12 info">
                                                 <i class="fas fa-map-marker-alt"></i>
-                                                <p>123 Lorem Ipsum, USA</p>
+                                                <p>123 Lorem Ipsum, Indonesia</p>
                                                 <span>Addres</span>
                                             </div>
                                             <div class="col-lg-4 col-sm-12 info">
