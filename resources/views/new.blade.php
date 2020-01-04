@@ -12,22 +12,22 @@
     <title>Baha - Personal Portfolio Template</title>
 
     <!-- CSS Plugins -->
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="css/plugins/font-awesome.css">
-    <link rel="stylesheet" href="css/plugins/magnific-popup.css">
-    <link rel="stylesheet" href="css/plugins/simplebar.css">
-    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="{!!asset('css/plugins/bootstrap.min.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/font-awesome.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/magnific-popup.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/simplebar.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/owl.carousel.min.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/owl.theme.default.min.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/plugins/jquery.animatedheadline.css')!!}">
 
     <!-- CSS Base -->
-    <link rel="stylesheet" class="back-color" href="css/style-dark.css">
-    <link rel="stylesheet" href="css/style-demo.css">
+    <link rel="stylesheet" class="back-color" href="{!!asset('css/style-dark.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/style-demo.css')!!}">
 
     <!-- Settings Style -->
-    <link rel="stylesheet" class="posit-nav" href="css/settings/left-nav.css" />
-    <link rel="stylesheet" class="theme-color" href="css/settings/green-color.css" />
-    <link rel="stylesheet" class="box-st" href="css/settings/circle-box.css" />
+    <link rel="stylesheet" class="posit-nav" href="{!!asset('css/settings/left-nav.css')!!}" />
+    <link rel="stylesheet" class="theme-color" href="{!!asset('css/settings/green-color.css')!!}" />
+    <link rel="stylesheet" class="box-st" href="{!!asset('css/settings/circle-box.css')!!}" />
 
 </head>
 
@@ -1182,18 +1182,18 @@
     </div>
 
     <!-- All Script -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/simplebar.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.animatedheadline.min.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
-    <script src="js/jquery.validation.js"></script>
-    <script src="js/tilt.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/main-demo.js"></script>
+    <script src="{!!asset('js/jquery.min.js')!!}"></script>
+    <script src="{!!asset('js/isotope.pkgd.min.js')!!}"></script>
+    <script src="{!!asset('js/bootstrap.min.js')!!}"></script>
+    <script src="{!!asset('js/simplebar.js')!!}"></script>
+    <script src="{!!asset('js/owl.carousel.min.js')!!}"></script>
+    <script src="{!!asset('js/jquery.magnific-popup.min.js')!!}"></script>
+    <script src="{!!asset('js/jquery.animatedheadline.min.js')!!}"></script>
+    <script src="{!!asset('js/jquery.easypiechart.js')!!}"></script>
+    <script src="{!!asset('js/jquery.validation.js')!!}"></script>
+    <script src="{!!asset('js/tilt.js')!!}"></script>
+    <script src="{!!asset('js/main.js')!!}"></script>
+    <script src="{!!asset('js/main-demo.js')!!}"></script>
     <script type='text/javascript'
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIus-_huNW25Jl7RPmHgoGZjD5udgBMI'></script>
 
