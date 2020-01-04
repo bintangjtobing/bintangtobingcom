@@ -41,9 +41,6 @@ return [
     'from_now' => ':time tới',
     'after' => ':time sau',
     'before' => ':time trước',
-    'diff_now' => 'bây giờ',
-    'diff_yesterday' => 'Hôm qua',
-    'diff_tomorrow' => 'Ngày mai',
     'formats' => [
         'LT' => 'HH:mm',
         'LTS' => 'HH:mm:ss',

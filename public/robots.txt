@@ -1,2 +1,14 @@
-User-agent: *
-Disallow:
+user-agent:*
+Disallow: /cgi-bin
+Disallow: /css/
+Disallow: /image/
+Disallow: /js/
+Disallow: /socmed/
+Disallow: /fonts/
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*?*
+Disallow: /*?
+Allow: /backup_file/

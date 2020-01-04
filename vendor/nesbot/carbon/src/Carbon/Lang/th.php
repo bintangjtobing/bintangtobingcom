@@ -40,9 +40,6 @@ return [
     'from_now' => 'อีก :time',
     'after' => ':timeหลังจากนี้',
     'before' => ':timeก่อน',
-    'diff_now' => 'ขณะนี้',
-    'diff_yesterday' => 'เมื่อวาน',
-    'diff_tomorrow' => 'พรุ่งนี้',
     'formats' => [
         'LT' => 'H:mm',
         'LTS' => 'H:mm:ss',

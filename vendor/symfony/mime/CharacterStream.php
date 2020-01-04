@@ -16,6 +16,8 @@ namespace Symfony\Component\Mime;
  * @author Xavier De Cock <xdecock@gmail.com>
  *
  * @internal
+ *
+ * @experimental in 4.3
  */
 final class CharacterStream
 {
@@ -174,7 +176,7 @@ final class CharacterStream
         $this->dataSize = \strlen($this->data) - \strlen($ignored);
     }
 
-    private function getUtf8CharPositions(string $string, int $startOffset, string &$ignoredChars): int
+    private function getUtf8CharPositions(string $string, int $startOffset, &$ignoredChars): int
     {
         $strlen = \strlen($string);
         $charPos = \count($this->map['p']);

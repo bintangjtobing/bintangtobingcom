@@ -35,7 +35,6 @@ return [
     'from_now' => ':timeमा',
     'after' => ':time पछि',
     'before' => ':time अघि',
-    'diff_now' => 'अहिले',
     'diff_yesterday' => 'हिजो',
     'diff_tomorrow' => 'भोलि',
     'formats' => [

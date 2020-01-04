@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border: 0
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000
+}
+
+body {
+    position: relative;
+    clear: both
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif
+}
+
+h2 {
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif
+}
+
+h4,
+h5 {
+    font-family: 'Josefin Sans', sans-serif
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.brand {
+    font-size: 25px
+}
+
+.jumbotron {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/bintangtobing-com/image/upload/v1568010772/webpublic/head4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 250px;
+    margin-bottom: 0 !important;
+}
+
+.jumbotron h3 {
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff
+}
+
+.jumbotron h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700
+}
+
+.imgart {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.imgart:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+.img-rounded {
+    border-radius: 35px
+}
+
+.sectionwhat {
+    max-height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.sectionhere {
+    max-height: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f9f9f9
+}
+
+.sectioncontact {
+    padding-top: 50px;
+    background-color: #f9f9f9
+}
+
+.sectionart {
+    padding-top: 35px
+}
+
+.sectionart .thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s
+}
+
+.sectionart .thumbnail.muncul {
+    opacity: 1;
+    transform: (0, 0)
+}
+
+.sectionlogo {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.sectionlogo .slide {
+    filter: grayscale(100%)
+}
+
+.sectionlogo .slide:hover {
+    filter: grayscale(0);
+    transition: .4s ease-in-out
+}
+
+.sectioncontact {
+    min-height: 400px;
+    padding-top: auto
+}
+
+.sectionprojek {
+    min-height: 100px
+}
+
+li {
+    list-style-type: none;
+    display: inline-block
+}
+
+.navbar {
+    background-color: #fff;
+    opacity: .96;
+    top: -50px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    z-index: 9999;
+    transition: top .3s
+}
+
+.darkcl {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    background-color: #fff;
+    color: #333335;
+    font-size: 16px;
+}
+
+.darkcl:hover {
+    background: #333335;
+    color: #fff;
+    transition: .3s ease-in-out;
+    background: -webkit-linear-gradient(to left, #414345, #333335);
+    background: linear-gradient(to left, #414345, #333335);
+
+}
+
+.navbar-nav li a:hover {
+    color: #bdbdbd !important
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #f9f9f9;
+    color: #838383;
+    font-size: .9em;
+    padding-bottom: 10px
+}
+
+hr {
+    width: 100px;
+    height: 1px;
+    border: 1px solid #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0))
+}
+
+.slideanim {
+    visibility: hidden
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@media (min-width:360px) and (max-width:767.98px) {
+    .jumbotron {
+        min-height: 630px
+    }
+
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0
+    }
+
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px
+    }
+
+    .logo {
+        font-size: 150px
+    }
+
+    .sectionhere .columnmake {
+        margin-bottom: 25px
+    }
+}
+
+.slick-slide {
+    margin: 0 20px
+}
+
+.slick-slide img {
+    width: 100%
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-track:after,
+.slick-track:before {
+    display: table;
+    content: ''
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.slick-slide img {
+    display: block
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-arrow.slick-hidden {
+    display: none
+}

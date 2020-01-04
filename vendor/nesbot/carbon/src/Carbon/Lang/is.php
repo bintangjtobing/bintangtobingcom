@@ -36,9 +36,6 @@ return [
     'day_of_first_week_of_year' => 4,
     'list' => [', ', ' og '],
     'meridiem' => ['fh', 'eh'],
-    'diff_now' => 'núna',
-    'diff_yesterday' => 'í gær',
-    'diff_tomorrow' => 'á morgun',
     'formats' => [
         'LT' => 'HH:mm',
         'LTS' => 'HH:mm:ss',
