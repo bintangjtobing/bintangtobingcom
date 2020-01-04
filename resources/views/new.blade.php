@@ -1125,14 +1125,16 @@
                                                         </div>
                                                         <div class="col-lg-12 col-sm-12">
                                                             <div class="error-messages">
+                                                                @if(session('sukses'))
                                                                 <div id="success">
                                                                     <i class="far fa-check-circle"></i>Thank you, your
                                                                     message has been sent.
                                                                 </div>
-                                                                <div id="error">
+                                                                @endif
+                                                                {{-- <div id="error">
                                                                     <i class="far fa-times-circle"></i>Error occurred
                                                                     while sending email. Please try again later.
-                                                                </div>
+                                                                </div> --}}
                                                             </div>
                                                         </div>
                                                     </div>

@@ -12,8 +12,10 @@ class homeController extends Controller
     {
         $message = new \App\messageDB;
         $message->nama = $request->name;
+        $message->subject = '-';
         $message->email = $request->email;
         $message->pesan = $request->pesan;
-        dd($message);
+        $message->save();
+        return back()->with('sukses', 'sukses');
     }
 }
