@@ -7,9 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/bintangtobing-com/image/upload/v1540304800/webpublic/staricon.ico">
     <!-- Title -->
-    <title>Baha - Personal Portfolio Template</title>
+    <title>Oh hi! I'm Bintang Tobing</title>
 
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="{!!asset('css/plugins/bootstrap.min.css')!!}">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="{!!asset('css/plugins/owl.carousel.min.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/plugins/owl.theme.default.min.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/plugins/jquery.animatedheadline.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/customstyle.css')!!}">
 
     <!-- CSS Base -->
     <link rel="stylesheet" class="back-color" href="{!!asset('css/style-dark.css')!!}">
@@ -52,7 +54,7 @@
 
                             <div class="header-mobile">
                                 <a class="header-toggle"><i class="fas fa-bars"></i></a>
-                                <h2>Baha</h2>
+                                <h2><img src="{!!asset('storage/img/bt-logo@60px.png')!!}" alt=""></h2>
                             </div>
 
                             <!-- Left Block -->
@@ -60,7 +62,7 @@
 
                                 <!-- Logo -->
                                 <div class="logo">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="{!!asset('storage/img/bt-logo@60px.png')!!}" alt="">
                                 </div>
 
                                 <ul>
@@ -84,7 +86,7 @@
                                     </li>
                                 </ul>
 
-                                <!-- Sound wave -->
+                                {{-- <!-- Sound wave -->
                                 <a class="music-bg">
                                     <div class="lines">
                                         <span></span>
@@ -95,21 +97,22 @@
                                         <span></span>
                                     </div>
                                     <p> Sound </p>
-                                </a>
+                                </a> --}}
                             </nav>
 
                             <!-- Home Section -->
-                            <div class="pt-home" style="background-image: url('img/home-bg.jpg')">
+                            <div class="pt-home"
+                                style="background-image: url('https://res.cloudinary.com/bintangtobing-com/image/upload/v1568010772/webpublic/head4.jpg')">
                                 <section>
 
                                     <!-- Banner -->
                                     <div class="banner">
-                                        <h1>Alex Smith</h1>
+                                        <h3>Oh hi!</h3>
+                                        <h1>Bintang Tobing</h1>
                                         <p class="cd-headline rotate-1">
                                             <span>I am a</span>
                                             <span class="cd-words-wrapper">
                                                 <b class="is-visible">Developer</b>
-                                                <b>Photographer</b>
                                                 <b>Designer</b>
                                                 <b>Freelancer</b>
                                             </span>
@@ -119,18 +122,18 @@
                                     <!-- Language -->
                                     <div class="lang">
                                         <ul>
-                                            <li><a href="#" class="active">eng</a></li>
-                                            <li><a href="#">rus</a></li>
+                                            <li><a href="#" class="active">ENG</a></li>
+                                            <li><a href="#">IND</a></li>
                                         </ul>
                                     </div>
 
                                     <!-- Social -->
                                     <div class="social">
                                         <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="https://facebook.com/bintangjtobing"><i
+                                                        class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://instagram.com/bintangj.exe"><i
+                                                        class="fab fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
                                 </section>
