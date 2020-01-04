@@ -1105,25 +1105,23 @@
                                     <div class="row mt-100">
                                         <div class="col-lg-12 col-sm-12">
                                             <div class="contact-form ">
-                                                <form method="post" class="box-1 contact-valid" id="contact-form">
+                                                <form method="post" action="/postmessages">
+                                                    @csrf
                                                     <div class="row">
                                                         <div class="col-lg-6 col-sm-12">
                                                             <input type="text" name="name" id="name"
-                                                                class="form-control" placeholder="Name *">
+                                                                class="form-control" placeholder="Name *" required>
                                                         </div>
                                                         <div class="col-lg-6 col-sm-12">
                                                             <input type="email" name="email" id="email"
-                                                                class="form-control" placeholder="Email *">
+                                                                class="form-control" placeholder="Email *" required>
                                                         </div>
                                                         <div class="col-lg-12 col-sm-12">
-                                                            <textarea class="form-control" name="note" id="note"
-                                                                placeholder="Your Message"></textarea>
+                                                            <textarea class="form-control" name="pesan" id="pesan"
+                                                                placeholder="Your Message" required></textarea>
                                                         </div>
                                                         <div class="col-lg-12 col-sm-12 text-center">
                                                             <button type="submit" class="btn-st">Send Message</button>
-                                                            <div id="loader">
-                                                                <i class="fas fa-sync"></i>
-                                                            </div>
                                                         </div>
                                                         <div class="col-lg-12 col-sm-12">
                                                             <div class="error-messages">
@@ -1148,23 +1146,23 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-12 info">
                                                 <i class="fas fa-paper-plane"></i>
-                                                <p>example@example.com</p>
+                                                <p>hello@bintangtobing.com</p>
                                                 <span>Email</span>
                                             </div>
                                             <div class="col-lg-4 col-sm-12 info">
                                                 <i class="fas fa-map-marker-alt"></i>
-                                                <p>123 Lorem Ipsum, Indonesia</p>
-                                                <span>Addres</span>
+                                                <p>Jalan Pelita IV Gang Aman No 7<br>Medan, Indonesia</p>
+                                                <span>Address</span>
                                             </div>
                                             <div class="col-lg-4 col-sm-12 info">
                                                 <i class="fas fa-phone"></i>
-                                                <p>(+1) 123 456 7890</p>
+                                                <p>(+62) 812 6284 5980</p>
                                                 <span>Phone</span>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!--Google Map Start-->
+                                    {{-- <!--Google Map Start-->
                                     <div class="google-map box-1 mt-100 mb-100">
                                         <div class="row">
                                             <div class="col-lg-12">
@@ -1172,7 +1170,7 @@
                                                     data-zoom="14"></div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section>
                             </div>
 
