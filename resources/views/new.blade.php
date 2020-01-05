@@ -7,8 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon"
-        href="https://res.cloudinary.com/bintangtobing-com/image/upload/v1540304800/webpublic/staricon.ico">
+    <link rel="shortcut icon" href="{!!asset('storage/img/icon-64x.png')!!}">
     <!-- Title -->
     <title>Oh hi! I'm Bintang Tobing</title>
 
@@ -62,7 +61,7 @@
 
                                 <!-- Logo -->
                                 <div class="logo">
-                                    <img src="{!!asset('storage/img/bt-logo@60px.png')!!}" alt="">
+                                    <img src="{!!asset('storage/img/bt-logo@120px.png')!!}" alt="">
                                 </div>
 
                                 <ul>
@@ -158,7 +157,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-3 col-sm-4">
                                                         <div class="photo">
-                                                            <img alt="" src="img/user-photo.jpg">
+                                                            <img alt="" src="{!!asset('storage/img/user.jpg')!!}">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-9 col-sm-8">
@@ -172,9 +171,9 @@
                                                             from the HTML program language.
                                                         </p>
                                                         <p>
-                                                            I have several hobbies but I like to travel. I have traveled
-                                                            almost all districts of our country with my father. I love
-                                                            fruit.
+                                                            I have several hobbies especially i love playing music. I
+                                                            can play music since i was 4 years old and i play piano at
+                                                            that age.
                                                         </p>
                                                     </div>
 
@@ -183,7 +182,7 @@
                                                         <div class="info-icon">
                                                             <i class="fas fa-award"></i>
                                                             <div class="desc-icon">
-                                                                <h6>8 Years Job</h6>
+                                                                <h6>3 Years Job</h6>
                                                                 <p>Experience</p>
                                                             </div>
                                                         </div>
@@ -194,7 +193,7 @@
                                                         <div class="info-icon">
                                                             <i class="fas fa-certificate"></i>
                                                             <div class="desc-icon">
-                                                                <h6>500+ Projects</h6>
+                                                                <h6>10+ Projects</h6>
                                                                 <p>Completed</p>
                                                             </div>
                                                         </div>
@@ -286,7 +285,7 @@
                                                         <div class="inter-icon">
                                                             <i class="fas fa-book"></i>
                                                             <div class="desc-inter">
-                                                                <h6>Books</h6>
+                                                                <h6>Ensiklopedia Books</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -304,9 +303,9 @@
                                                     <!-- Interests Item -->
                                                     <div class="col-lg-3 col-sm-6">
                                                         <div class="inter-icon">
-                                                            <i class="fas fa-tree"></i>
+                                                            <i class="fas fa-umbrella-beach"></i>
                                                             <div class="desc-inter">
-                                                                <h6>Forest</h6>
+                                                                <h6>Beach</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -329,44 +328,28 @@
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="service box-1 mb-40">
                                                 <i class="fas fa-desktop"></i>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's
-                                                    standard dummy text ever.</p>
+                                                <h4>Web Design & Development</h4>
+                                                <p>Starting this step, is a really difficult step. And I am already at
+                                                    this point where I want to start my career here. I provide web
+                                                    development and web design development services. I can assure you
+                                                    that the web development that I made does not disappoint.</p>
                                             </div>
                                         </div>
 
                                         <!-- Service Item -->
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="service box-2 mb-40">
-                                                <i class="fas fa-cogs"></i>
-                                                <h4>Web Development</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's
-                                                    standard dummy text ever.</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Service Item -->
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="service box-2 mb-40">
-                                                <i class="fas fa-mobile-alt"></i>
-                                                <h4>Responsive Design</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's
-                                                    standard dummy text ever.</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Service Item -->
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="service box-1 mb-40">
-                                                <i class="fas fa-medkit"></i>
-                                                <h4>quick Support</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's
-                                                    standard dummy text ever.</p>
+                                                <i class="fas fa-draw-polygon"></i>
+                                                <h4>Design</h4>
+                                                <p>I also studied design since before I've got know the program
+                                                    languages. And I
+                                                    dare to offer you design services. I can promise you that design
+                                                    that i made doesn't dissapoint.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Testimonial Row Start -->
+                                    {{-- <!-- Testimonial Row Start -->
                                     <div class="row testimonial mt-60">
 
                                         <!-- Header Block -->
@@ -455,7 +438,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                     <!-- Price Row Start -->
                                     <div class="row mt-100 mb-60">
@@ -472,25 +455,24 @@
                                             <div class="price box-1">
                                                 <div class="head-price">
                                                     <i class="fa fa-user"></i>
-                                                    <h4>Basic</h4>
+                                                    <h4>Web package</h4>
                                                 </div>
                                                 <div class="body-price">
                                                     <div class="price-plan">
                                                         <span class="currency">$</span>
-                                                        <span class="number">25</span>
-                                                        <span class="period">month</span>
+                                                        <span class="number">450-500</span>
+                                                        <span class="period">OTC</span>
                                                     </div>
                                                     <div class="list-price">
                                                         <ul>
                                                             <li>Web Design</li>
                                                             <li>Web Development</li>
                                                             <li class="disable">Responsive Design</li>
-                                                            <li class="disable">Game Development</li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="footer-price">
-                                                    <a href="#" class="btn-st">Buy Now</a>
+                                                    <a href="#" class="btn-st">Let's talk</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -500,7 +482,7 @@
                                             <div class="price box-2">
                                                 <div class="head-price">
                                                     <i class="fa fa-briefcase"></i>
-                                                    <h4>Standard</h4>
+                                                    <h4>Design package</h4>
                                                 </div>
                                                 <div class="body-price">
                                                     <div class="price-plan">
@@ -510,15 +492,14 @@
                                                     </div>
                                                     <div class="list-price">
                                                         <ul>
-                                                            <li>Web Design</li>
-                                                            <li>Web Development</li>
+                                                            <li class="disable">Web Design</li>
+                                                            <li class="disable">Web Development</li>
                                                             <li>Responsive Design</li>
-                                                            <li class="disable">Game Development</li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="footer-price">
-                                                    <a href="#" class="btn-st">Buy Now</a>
+                                                    <a href="#" class="btn-st">Let's talk</a>
                                                 </div>
                                             </div>
                                         </div>
