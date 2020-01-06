@@ -91,9 +91,7 @@
                                 <!-- Logo -->
                                 <div class="logo">
                                     <a href="#home">
-                                        <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"></a>
-                                </div>
-
+                                        <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"></a> </div>
                                 <ul>
                                     <li data-tooltip="home" data-position="top">
                                         <a href="#home" class="icon-h fas fa-house-damage"></a>
