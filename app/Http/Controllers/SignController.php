@@ -13,6 +13,6 @@ class SignController extends Controller
     }
     public function dashindex()
     {
-        return view('dash.index');
+        return view('dashII.index');
     }
 }
