@@ -11,4 +11,8 @@ class SignController extends Controller
     {
         return view('login.index');
     }
+    public function dashindex()
+    {
+        return view('dash.index');
+    }
 }
