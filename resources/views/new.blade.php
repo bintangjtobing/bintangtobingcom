@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    {{-- VERIFICATION --}}
+    <meta name="google-site-verification" content="MD23XAsqv9D3qtHbVHbHfHoGDO8gQzYLI1jBN6Fha8M" />
+    <meta name="msvalidate.01" content="85BB1F108E1BB71008A6260F2D262234" />
 
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -30,6 +33,8 @@
     <link rel="stylesheet" class="theme-color" href="{!!asset('css/settings/green-color.css')!!}" />
     <link rel="stylesheet" class="box-st" href="{!!asset('css/settings/circle-box.css')!!}" />
 
+    {{-- META CONTENT --}}
+
 </head>
 
 <body>
@@ -53,7 +58,8 @@
 
                             <div class="header-mobile">
                                 <a class="header-toggle"><i class="fas fa-bars"></i></a>
-                                <h2><img src="{!!asset('storage/img/bt-logo@60px.png')!!}" alt=""></h2>
+                                <h2><a href="#home"><img src="{!!asset('storage/img/bt-logo@60px.png')!!}"
+                                            alt="Logo Bintang Tobing"></a></h2>
                             </div>
 
                             <!-- Left Block -->
@@ -61,7 +67,8 @@
 
                                 <!-- Logo -->
                                 <div class="logo">
-                                    <img src="{!!asset('storage/img/bt-logo@120px.png')!!}" alt="">
+                                    <a href="#home">
+                                        <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"></a>
                                 </div>
 
                                 <ul>
@@ -74,9 +81,9 @@
                                     <li data-tooltip="resume" data-position="top">
                                         <a href="#resume" class="icon-r fas fa-address-book"></a>
                                     </li>
-                                    <li data-tooltip="portfolio" data-position="top">
+                                    {{-- <li data-tooltip="portfolio" data-position="top">
                                         <a href="#portfolio" class="icon-p fas fa-briefcase"></a>
-                                    </li>
+                                    </li> --}}
                                     <li data-tooltip="blog" data-position="top">
                                         <a href="#blog" class="icon-b fas fa-receipt"></a>
                                     </li>
@@ -100,13 +107,12 @@
                             </nav>
 
                             <!-- Home Section -->
-                            <div class="pt-home"
-                                style="background-image: url('https://res.cloudinary.com/bintangtobing-com/image/upload/v1568010772/webpublic/head4.jpg')">
+                            <div class="pt-home" style="background-image: url('storage/img/bg.jpg')">
                                 <section>
 
                                     <!-- Banner -->
                                     <div class="banner">
-                                        <h3>Oh hi!</h3>
+                                        <h3>Oh hi! I'm</h3>
                                         <h1>Bintang Tobing</h1>
                                         <p class="cd-headline rotate-1">
                                             <span>I am a</span>
@@ -122,7 +128,7 @@
                                     <div class="lang">
                                         <ul>
                                             <li><a href="#" class="active">ENG</a></li>
-                                            <li><a href="#">IND</a></li>
+                                            {{-- <li disabled>IND</li> --}}
                                         </ul>
                                     </div>
 
@@ -133,6 +139,9 @@
                                                         class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="https://instagram.com/bintangj.exe"><i
                                                         class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/bintangjtobing"><i
+                                                        class="fab fa-twitter"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </section>
@@ -209,8 +218,18 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-sm-12 pt-50">
-                                                        <a href="#" class="btn-st">Download CV</a>
+                                                    <div class="col-lg-3 col-sm-12">
+                                                        {{-- <a href="#" class="btn-st">See my stories</a>
+                                                        <p>On Instagram</p> --}}
+                                                        <a href="https://instagram.com/bintangj.exe" target="_blank">
+                                                            <div class="info-icon">
+                                                                <i class="fab fa-instagram"></i>
+                                                                <div class="desc-icon">
+                                                                    <h6>See my stories</h6>
+                                                                    <p>on Instagram</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -487,8 +506,8 @@
                                                 <div class="body-price">
                                                     <div class="price-plan">
                                                         <span class="currency">$</span>
-                                                        <span class="number">40</span>
-                                                        <span class="period">month</span>
+                                                        <span class="number">40-50</span>
+                                                        <span class="period">OTC</span>
                                                     </div>
                                                     <div class="list-price">
                                                         <ul>
@@ -509,25 +528,19 @@
                                             <div class="price box-1">
                                                 <div class="head-price">
                                                     <i class="fa fa-globe"></i>
-                                                    <h4>Premium</h4>
+                                                    <h4>Talking about project?</h4>
                                                 </div>
                                                 <div class="body-price">
-                                                    <div class="price-plan">
-                                                        <span class="currency">$</span>
-                                                        <span class="number">55</span>
-                                                        <span class="period">month</span>
-                                                    </div>
-                                                    <div class="list-price">
-                                                        <ul>
-                                                            <li>Web Design</li>
-                                                            <li>Web Development</li>
-                                                            <li>Responsive Design</li>
-                                                            <li>Game Development</li>
-                                                        </ul>
-                                                    </div>
+                                                    <p>Interest to make a new project to me? Make a <b>something new</b>
+                                                        or
+                                                        Continues <b>existing project</b>?<br>
+                                                        Let's chat on <a
+                                                            href="mailto:hello@bintangtobing.com"><b>email</b></a>
+                                                        or whatsapp messages work best.
+                                                    </p>
                                                 </div>
                                                 <div class="footer-price">
-                                                    <a href="#" class="btn-st">Buy Now</a>
+                                                    <a href="#contact" class="btn-st">Get in touch</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -549,7 +562,7 @@
                                     <div class="row mt-100">
 
                                         <!-- Experience Column Start -->
-                                        <div class="col-lg-6 col-sm-12">
+                                        <div class="col-lg-12 col-sm-12">
 
                                             <!-- Header Block -->
                                             <div class="header-box mb-50">
@@ -561,46 +574,65 @@
                                                 <!-- Experience Item -->
                                                 <div class="item">
                                                     <div class="main">
-                                                        <h4>Web Design</h4>
-                                                        <p><i class="far fa-calendar-alt"></i>2012 - 2014 | Сompany Inc
+                                                        <h4>Web Design | Internship</h4>
+                                                        <p><i class="far fa-calendar-alt"></i>Jan - Mar 2015 | PT. PLASA
+                                                            99
                                                         </p>
                                                     </div>
-                                                    <p>Work experience is essential for getting a job. Whether it's a
-                                                        short work placement or a longer internship, work experience is
-                                                        always viewed favourably by employers and can help you decide
-                                                        your future career.</p>
+                                                    <p>Working at plasa 99 as internship was great. Cause it was my
+                                                        first time feel like wow, this is what is situation of working.
+                                                        So i do a design of a few of websites and applied to joomla CMS.
+                                                        So that is my first time i'd use joomla. Ya almost 4 months i
+                                                        work at there, i always improve my design skill to websites.</p>
                                                 </div>
 
                                                 <!-- Experience Item -->
                                                 <div class="item">
                                                     <div class="main">
-                                                        <h4>Fornt-End Developer</h4>
-                                                        <p><i class="far fa-calendar-alt"></i>2014 - 2015 | Сompany Inc
+                                                        <h4>Full Stack Developer | Full time</h4>
+                                                        <p><i class="far fa-calendar-alt"></i>2017 - 2018 | PT. BPR NBP
+                                                            18 &
+                                                            PT. Andalan Inovasi Ruangan
                                                         </p>
                                                     </div>
-                                                    <p>Work experience is essential for getting a job. Whether it's a
-                                                        short work placement or a longer internship, work experience is
-                                                        always viewed favourably by employers and can help you decide
-                                                        your future career.</p>
+                                                    <p>Maybe when I worked at this company, I found my true identity.
+                                                        Cause everyday, and like every hour, i always do a programming
+                                                        based on websites. And this is what i've been made when i spend
+                                                        one year on this company.<br>
+                                                        <ul>
+                                                            <li><a href="http://www.bprnbp18.co.id"
+                                                                    target="_blank">bprnbp18.co.id</a></li>
+                                                            <li><a href="http://interiorrumahku.id"
+                                                                    target="_blank">interiorrumahku.id</a></li>
+                                                        </ul>
+                                                    </p>
                                                 </div>
 
                                                 <!-- Experience Item -->
                                                 <div class="item">
                                                     <div class="main">
-                                                        <h4>Web Development</h4>
-                                                        <p><i class="far fa-calendar-alt"></i>2015 - 2019 | Сompany Inc
+                                                        <h4>Co-Founder & Full Stack Developer | Full time</h4>
+                                                        <p><i class="far fa-calendar-alt"></i>2019 - now | PT. Benua
+                                                            Solusi Teknologi
                                                         </p>
                                                     </div>
-                                                    <p>Work experience is essential for getting a job. Whether it's a
-                                                        short work placement or a longer internship, work experience is
-                                                        always viewed favourably by employers and can help you decide
-                                                        your future career.</p>
+                                                    <p>In this place, i have already got many improvement on my skill.
+                                                        I've made many websites from this. And honestly, i can't tell
+                                                        that sites one by one. But maybe to prove that, i can offer to
+                                                        you. How if we make a great project together?<br>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="https://infinitysolutions.co.id">infinitysolutions.co.id</a>
+                                                            </li>
+                                                            <li><a href="https://btsa.co.id">btsa.co.id</a></li>
+                                                        </ul>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <!-- Education Column Start -->
-                                        <div class="col-lg-6 col-sm-12">
+                                        {{-- <div class="col-lg-6 col-sm-12">
 
                                             <!-- Header Block -->
                                             <div class="header-box mb-50 mob-box-mt">
@@ -648,7 +680,7 @@
                                                         your future career.</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
 
                                     <!-- Skills Row Start -->
@@ -680,8 +712,8 @@
                                                 <div class="skill-item">
                                                     <h4 class="progress-title">CSS3</h4>
                                                     <div class="progress">
-                                                        <div class="progress-bar" style="width:85%">
-                                                            <div class="progress-value">85%</div>
+                                                        <div class="progress-bar" style="width:95%">
+                                                            <div class="progress-value">95%</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -690,18 +722,18 @@
                                                 <div class="skill-item">
                                                     <h4 class="progress-title">JavaScript</h4>
                                                     <div class="progress">
-                                                        <div class="progress-bar" style="width:90%">
-                                                            <div class="progress-value">90%</div>
+                                                        <div class="progress-bar" style="width:70%">
+                                                            <div class="progress-value">70%</div>
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <!-- Skill Item -->
                                                 <div class="skill-item">
-                                                    <h4 class="progress-title">UI/UX designer</h4>
+                                                    <h4 class="progress-title">PHP / Laravel Framework</h4>
                                                     <div class="progress">
-                                                        <div class="progress-bar" style="width:77%">
-                                                            <div class="progress-value">77%</div>
+                                                        <div class="progress-bar" style="width:85%">
+                                                            <div class="progress-value">85%</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -712,29 +744,29 @@
 
                                                     <!-- Skill Item -->
                                                     <div class="col-lg-6 col-sm-6">
-                                                        <div class="chart" data-percent="80" data-bar-color="#fff"> 80%
+                                                        <div class="chart" data-percent="80" data-bar-color="#fff"> 85%
                                                             <p>PHP</p>
                                                         </div>
                                                     </div>
 
                                                     <!-- Skill Item -->
                                                     <div class="col-lg-6 col-sm-6">
-                                                        <div class="chart" data-percent="70" data-bar-color="#fff"> 70%
-                                                            <p>Illustrator</p>
+                                                        <div class="chart" data-percent="70" data-bar-color="#fff"> 80%
+                                                            <p>Lightroom</p>
                                                         </div>
                                                     </div>
 
                                                     <!-- Skill Item -->
                                                     <div class="col-lg-6 col-sm-6">
-                                                        <div class="chart" data-percent="60" data-bar-color="#fff"> 60%
+                                                        <div class="chart" data-percent="60" data-bar-color="#fff"> 95%
                                                             <p>Photoshop</p>
                                                         </div>
                                                     </div>
 
                                                     <!-- Skill Item -->
                                                     <div class="col-lg-6 col-sm-6">
-                                                        <div class="chart" data-percent="90" data-bar-color="#fff"> 90%
-                                                            <p>AngularJS</p>
+                                                        <div class="chart" data-percent="90" data-bar-color="#fff"> 70%
+                                                            <p>VueJS</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -761,16 +793,18 @@
                                                 <div class="single-wp width-sm process-1">
                                                     <p class="wp-step">01</p>
                                                     <h4 class="wp-title">Discuss idea</h4>
-                                                    <p>I could describe these conceptions, also impress upon paper all
-                                                        that is living.</p>
+                                                    <p>Discuss idea is very important thing that we can explain all of
+                                                        what we have been plan, and take a most important than more
+                                                        important part idea.</p>
                                                 </div>
 
                                                 <!-- Working Process Item-->
                                                 <div class="single-wp width-sm process-2">
                                                     <p class="wp-step">02</p>
-                                                    <h4 class="wp-title">Creative concept</h4>
-                                                    <p>I could describe these conceptions, also impress upon paper all
-                                                        that is living.</p>
+                                                    <h4 class="wp-title">Creative concept & Web concept</h4>
+                                                    <p>Always. Creative and web concept is part that is always needed.
+                                                        Therefore, we have an unique identity. We never forget this part
+                                                        after we discuss an idea.</p>
                                                 </div>
                                             </div>
 
@@ -791,17 +825,21 @@
                                                 <!-- Working Process Item-->
                                                 <div class="single-wp width-sm process-3">
                                                     <p class="wp-step">03</p>
-                                                    <h4 class="wp-title">Web concept</h4>
-                                                    <p>I could describe these conceptions, also impress upon paper all
-                                                        that is living.</p>
+                                                    <h4 class="wp-title">Collecting data</h4>
+                                                    <p>If we have already discuss about idea, concept. So what we need?
+                                                        For sure, that is the data. After we discuss about idea and
+                                                        concept, i always make a list that data needed. And asking you
+                                                        to collect data and i will process it to complete our project
+                                                        concept.</p>
                                                 </div>
 
                                                 <!-- Working Process Item-->
                                                 <div class="single-wp width-sm process-4">
                                                     <p class="wp-step">04</p>
-                                                    <h4 class="wp-title">Final concept</h4>
-                                                    <p>I could describe these conceptions, also impress upon paper all
-                                                        that is living.</p>
+                                                    <h4 class="wp-title">Can we review this?</h4>
+                                                    <p>After all process complete, i will text you, and always said,
+                                                        "can we review this?". And if there is a mistake, i will fix it
+                                                        with a promise.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -809,7 +847,7 @@
                                 </section>
                             </div>
 
-                            <!-- Portfolio Section -->
+                            {{-- <!-- Portfolio Section -->
                             <div class="page pt-portfolio" data-simplebar>
                                 <section class="container">
 
@@ -945,7 +983,7 @@
                                         </div>
                                     </div>
                                 </section>
-                            </div>
+                            </div> --}}
                             <!-- Blog Section -->
                             <div class="page pt-blog" data-simplebar>
                                 <section class="container">
