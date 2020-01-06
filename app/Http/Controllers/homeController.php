@@ -12,7 +12,8 @@ class homeController extends Controller
     {
         $message = new \App\messageDB;
         $message->nama = $request->name;
-        $message->subject = '-';
+        $message->subject = $request->subject;
+        $message->status = 'unread';
         $message->email = $request->email;
         $message->pesan = $request->pesan;
         $message->save();

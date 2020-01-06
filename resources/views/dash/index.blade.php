@@ -56,10 +56,7 @@
                         <div class="collapse" id="emails">
                             <ul class="nav sub-menu">
                                 <li class="nav-item">
-                                    <a href="pages/email/inbox.html" class="nav-link">Inbox</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/email/read.html" class="nav-link">Read</a>
+                                    <a href="/email" class="nav-link">Inbox</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/email/compose.html" class="nav-link">Compose</a>

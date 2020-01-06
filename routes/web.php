@@ -22,5 +22,6 @@ Route::get('sign-in', 'SignController@index');
 
 
 Route::get('/tool', function () {
-    return view('dash.index');
+    return view('dashII.index');
 });
+Route::get('/email', 'SignController@email');

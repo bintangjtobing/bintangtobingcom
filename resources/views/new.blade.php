@@ -1156,6 +1156,11 @@
                                                             <input type="email" name="email" id="email"
                                                                 class="form-control" placeholder="Email *" required>
                                                         </div>
+                                                        <div class="col-lg-12 col-sm-12 mt-30">
+                                                            <input type="text" name="subject" id="subject"
+                                                                class="form-control" placeholder="Subject Message *"
+                                                                required>
+                                                        </div>
                                                         <div class="col-lg-12 col-sm-12">
                                                             <textarea class="form-control" name="pesan" id="pesan"
                                                                 placeholder="Your Message" required></textarea>

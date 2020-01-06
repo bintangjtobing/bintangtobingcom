@@ -11,8 +11,17 @@ class SignController extends Controller
     {
         return view('login.index');
     }
-    public function dashindex()
+    public function email()
     {
-        return view('dashII.index');
+        $email = DB::table('messages')
+            ->select('messages.*')
+            ->orderBy('messages.created_at', 'DESC')
+            ->get();
+        $email_unread = DB::table('messages')
+            ->select('messages.*')
+            ->where('messages.status', '=', 'unread')
+            ->orderBy('messages.created_at', 'DESC')
+            ->get();
+        return view('dashII.email', ['email_unread' => $email_unread, 'email' => $email]);
     }
 }
