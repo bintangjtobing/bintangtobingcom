@@ -18,4 +18,3 @@ Route::get('/dark', function () {
     return view('dark');
 });
 Route::post('/postmessages', 'homeController@postemail');
-Route::get('/sign-in', 'SignController@index');

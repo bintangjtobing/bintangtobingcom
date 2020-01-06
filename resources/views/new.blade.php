@@ -94,22 +94,22 @@
                                         <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"></a> </div>
                                 <ul>
                                     <li data-tooltip="home" data-position="top">
-                                        <a href="#home" class="icon-h fas fa-house-damage"></a>
+                                        <a href="#home" class="icon-h fas fa-home"></a>
                                     </li>
                                     <li data-tooltip="about" data-position="top">
-                                        <a href="#about" class="icon-a fas fa-user-tie"></a>
+                                        <a href="#about" class="icon-a fas fa-user-circle"></a>
                                     </li>
                                     <li data-tooltip="resume" data-position="top">
-                                        <a href="#resume" class="icon-r fas fa-address-book"></a>
+                                        <a href="#resume" class="icon-r far fa-file-alt"></a>
                                     </li>
                                     {{-- <li data-tooltip="portfolio" data-position="top">
                                         <a href="#portfolio" class="icon-p fas fa-briefcase"></a>
                                     </li> --}}
-                                    <li data-tooltip="blog" data-position="top">
+                                    {{-- <li data-tooltip="blog" data-position="top">
                                         <a href="#blog" class="icon-b fas fa-receipt"></a>
-                                    </li>
+                                    </li> --}}
                                     <li data-tooltip="contact" data-position="bottom">
-                                        <a href="#contact" class="icon-c fas fa-envelope"></a>
+                                        <a href="#contact" class="icon-c far fa-envelope"></a>
                                     </li>
                                 </ul>
 
@@ -1006,7 +1006,7 @@
                                 </section>
                             </div> --}}
                             <!-- Blog Section -->
-                            <div class="page pt-blog" data-simplebar>
+                            {{-- <div class="page pt-blog" data-simplebar>
                                 <section class="container">
 
                                     <!-- Section Title -->
@@ -1129,7 +1129,7 @@
                                         </div>
                                     </div>
                                 </section>
-                            </div>
+                            </div> --}}
 
                             <!-- Contact Section -->
                             <div class="page pt-contact" data-simplebar>
