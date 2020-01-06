@@ -21,4 +21,6 @@ Route::post('/postmessages', 'homeController@postemail');
 Route::get('sign-in', 'SignController@index');
 
 
-Route::get('dashboard', 'SignController@dashindex');
+Route::get('/tool', function () {
+    return view('dash.index');
+});

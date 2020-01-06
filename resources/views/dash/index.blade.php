@@ -1196,7 +1196,7 @@
     </div>
 
     <!-- core:js -->
-    <script src="core.js"></script>
+    <script src="{!!asset('dashboard/js/core.js')!!}"></script>
     <!-- endinject -->
     <!-- plugin js for this page -->
     <script src="{!!asset('dashboard/js/Chart.min.js')!!}"></script>
