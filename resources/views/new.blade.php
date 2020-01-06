@@ -34,6 +34,29 @@
     <link rel="stylesheet" class="box-st" href="{!!asset('css/settings/circle-box.css')!!}" />
 
     {{-- META CONTENT --}}
+    <meta name="title" content="Oh hi! I'm Bintang Tobing">
+    <meta name="keywords"
+        content="Bintang Tobing, Web Developer, Freelance, Jasa Bintang Tobing, Bintang, BintangTobing, designer, web Bintang">
+    <meta name="description" content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and
+        personal completeness in this digital age.">
+    <meta name="author" content="Bintang Jeremia Tobing">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    {{-- SOCIAL MEDIA TAGS --}}
+    {{-- FACEBOOK SOCMED --}}
+    <meta property="fb:admins" content="111044563749542">
+    <meta property="og:title" content="Oh hi! I'm Bintang Tobing">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{URL::current()}}">
+    <meta property="og:image" content="{!!asset('storage/img/cover.jpg')!!}">
+    <meta property="og:description" content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and
+        personal completeness in this digital age.">
+    <meta property="og:site_name" content="Bintang Tobing.">
+    {{-- TWITTER SOCMED --}}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bintangjtobing">
+    <meta name="twitter:creator" content="@bintangjtobing">
 
 </head>
 
@@ -135,7 +158,7 @@
                                     <!-- Social -->
                                     <div class="social">
                                         <ul>
-                                            <li><a href="https://facebook.com/bintangjtobing"><i
+                                            <li><a href="https://facebook.com/bintangjexe"><i
                                                         class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="https://instagram.com/bintangj.exe"><i
                                                         class="fab fa-instagram"></i></a></li>
