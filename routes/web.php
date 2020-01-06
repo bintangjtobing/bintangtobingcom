@@ -25,3 +25,4 @@ Route::get('/tool', function () {
     return view('dashII.index');
 });
 Route::get('/email', 'SignController@email');
+Route::get('email/read/{message_id}', 'SignController@emailread');

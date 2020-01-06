@@ -134,7 +134,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <a href="#" class="email-list-detail">
+                                    <a href="/email/read/{{$emaillist->message_id}}" class="email-list-detail">
                                         <div>
                                             <span class="from">{{$emaillist->nama}}</span>
                                             <p class="msg">{{$emaillist->subject}}</p>
