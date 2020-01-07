@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="{!!asset('storage/img/icon-64x.png')!!}">
+    <link rel="shortcut icon" href="{!!asset('storage/img/icon-64x.png')!!}" alt="icon BT">
     <!-- Title -->
     <title>Oh hi! I'm Bintang Tobing</title>
 
@@ -91,7 +91,8 @@
                                 <!-- Logo -->
                                 <div class="logo">
                                     <a href="#home">
-                                        <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"></a> </div>
+                                        <img src="{!!asset('storage/img/bt-logo@120px.png')!!}"
+                                            alt="Logo Bintang Tobing"></a> </div>
                                 <ul>
                                     <li data-tooltip="home" data-position="top">
                                         <a href="#home" class="icon-h fas fa-home"></a>
@@ -128,7 +129,8 @@
                             </nav>
 
                             <!-- Home Section -->
-                            <div class="pt-home" style="background-image: url('storage/img/bg.jpg')">
+                            <div class="pt-home" style="background-image: url('storage/img/bg.jpg')"
+                                alt="background Bintang Tobing">
                                 <section>
 
                                     <!-- Banner -->
@@ -896,7 +898,8 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 graphic">
                                             <figure>
-                                                <img alt="" src="{!!asset('storage/merch/hoodie.jpg')!!}">
+                                                <img alt="Hoodie BT Official Merch"
+                                                    src="{!!asset('storage/merch/hoodie.jpg')!!}">
                                                 <figcaption>
                                                     <h3>BT hoodie official</h3>
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
@@ -910,7 +913,8 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="{!!asset('storage/merch/stiker.jpg')!!}">
+                                                <img alt="Sticker BT Official Merch"
+                                                    src="{!!asset('storage/merch/stiker.jpg')!!}">
                                                 <figcaption>
                                                     <h3>BT die-cut stiker official</h3>
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
@@ -924,7 +928,8 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="{!!asset('storage/merch/tee-shirt.jpg')!!}">
+                                                <img alt="T-Shirt BT Official Merch"
+                                                    src="{!!asset('storage/merch/tee-shirt.jpg')!!}">
                                                 <figcaption>
                                                     <h3>BT tee-shirt official</h3>
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
@@ -938,7 +943,8 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 graphic">
                                             <figure>
-                                                <img alt="" src="{!!asset('storage/merch/snapback.jpg')!!}">
+                                                <img alt="Snapback BT Official Merch"
+                                                    src="{!!asset('storage/merch/snapback.jpg')!!}">
                                                 <figcaption>
                                                     <h3>BT snapback official</h3>
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
@@ -952,7 +958,8 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="{!!asset('storage/merch/mug.jpg')!!}">
+                                                <img alt="Mug BT Official Merch"
+                                                    src="{!!asset('storage/merch/mug.jpg')!!}">
                                                 <figcaption>
                                                     <h3>BT mug official</h3>
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
