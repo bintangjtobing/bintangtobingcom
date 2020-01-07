@@ -102,9 +102,9 @@
                                     <li data-tooltip="resume" data-position="top">
                                         <a href="#resume" class="icon-r far fa-file-alt"></a>
                                     </li>
-                                    {{-- <li data-tooltip="portfolio" data-position="top">
-                                        <a href="#portfolio" class="icon-p fas fa-briefcase"></a>
-                                    </li> --}}
+                                    <li data-tooltip="merchandise" data-position="top">
+                                        <a href="#portfolio" class="icon-p fas fa-gifts"></a>
+                                    </li>
                                     {{-- <li data-tooltip="blog" data-position="top">
                                         <a href="#blog" class="icon-b fas fa-receipt"></a>
                                     </li> --}}
@@ -868,13 +868,13 @@
                                 </section>
                             </div>
 
-                            {{-- <!-- Portfolio Section -->
+                            <!-- Portfolio Section -->
                             <div class="page pt-portfolio" data-simplebar>
                                 <section class="container">
 
                                     <!-- Section Title -->
                                     <div class="header-page mt-70 mob-mt">
-                                        <h2>Portfolio</h2>
+                                        <h2>Merchandise</h2>
                                         <span></span>
                                     </div>
 
@@ -882,10 +882,10 @@
                                     <div class="row mt-100">
                                         <div class="col-lg-12 col-sm-12 portfolio-filter">
                                             <ul>
-                                                <li class="active" data-filter="*">All</li>
-                                                <li data-filter=".brand">Brand</li>
+                                                <li class="active" data-filter="*">All models</li>
+                                                {{-- <li data-filter=".brand">Brand</li>
                                                 <li data-filter=".design">Design</li>
-                                                <li data-filter=".graphic">Graphic</li>
+                                                <li data-filter=".graphic">Graphic</li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -896,11 +896,13 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 graphic">
                                             <figure>
-                                                <img alt="" src="img/portfolio/img-1.jpg">
+                                                <img alt="" src="{!!asset('storage/merch/hoodie.jpg')!!}">
                                                 <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Graphic</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-1.jpg"></a>
+                                                    <h3>BT hoodie official</h3>
+                                                    <p>merch</p><i class="fas fa-shopping-basket"></i>
+                                                    <a class="image-link" data-toggle="tooltip"
+                                                        title="Interest? Buy on Direct Messages"
+                                                        href="https://instagram.com/bintangj.exe"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -908,24 +910,27 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="img/portfolio/img-2.jpg">
+                                                <img alt="" src="{!!asset('storage/merch/stiker.jpg')!!}">
                                                 <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Design</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-2.jpg"></a>
+                                                    <h3>BT die-cut stiker official</h3>
+                                                    <p>merch</p><i class="fas fa-shopping-basket"></i>
+                                                    <a class="image-link" data-toggle="tooltip"
+                                                        title="Interest? Buy on Direct Messages"
+                                                        href="https://instagram.com/bintangj.exe"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
 
                                         <!-- Portfolio Item -->
-                                        <div class="item col-lg-4 col-sm-6 brand">
+                                        <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="img/portfolio/img-3.jpg">
+                                                <img alt="" src="{!!asset('storage/merch/tee-shirt.jpg')!!}">
                                                 <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Graphic</p><i class="fas fa-video"></i>
-                                                    <a class="video-link"
-                                                        href="https://www.youtube.com/watch?v=k_okcNVZqqI"></a>
+                                                    <h3>BT tee-shirt official</h3>
+                                                    <p>merch</p><i class="fas fa-shopping-basket"></i>
+                                                    <a class="image-link" data-toggle="tooltip"
+                                                        title="Interest? Buy on Direct Messages"
+                                                        href="https://instagram.com/bintangj.exe"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -933,11 +938,13 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 graphic">
                                             <figure>
-                                                <img alt="" src="img/portfolio/img-4.jpg">
+                                                <img alt="" src="{!!asset('storage/merch/snapback.jpg')!!}">
                                                 <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Design</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-4.jpg"></a>
+                                                    <h3>BT snapback official</h3>
+                                                    <p>merch</p><i class="fas fa-shopping-basket"></i>
+                                                    <a class="image-link" data-toggle="tooltip"
+                                                        title="Interest? Buy on Direct Messages"
+                                                        href="https://instagram.com/bintangj.exe"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -945,66 +952,19 @@
                                         <!-- Portfolio Item -->
                                         <div class="item col-lg-4 col-sm-6 design">
                                             <figure>
-                                                <img alt="" src="img/portfolio/img-5.jpg">
+                                                <img alt="" src="{!!asset('storage/merch/mug.jpg')!!}">
                                                 <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Design</p><i class="fas fa-video"></i>
-                                                    <a class="video-link"
-                                                        href="https://www.youtube.com/watch?v=k_okcNVZqqI"></a>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-
-                                        <!-- Portfolio Item -->
-                                        <div class="item col-lg-4 col-sm-6 brand">
-                                            <figure>
-                                                <img alt="" src="img/portfolio/img-6.jpg">
-                                                <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Brand</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-6.jpg"></a>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-
-                                        <!-- Portfolio Item -->
-                                        <div class="item col-lg-4 col-sm-6 graphic">
-                                            <figure>
-                                                <img alt="" src="img/portfolio/img-7.jpg">
-                                                <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Brand</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-7.jpg"></a>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-
-                                        <!-- Portfolio Item -->
-                                        <div class="item col-lg-4 col-sm-6 design">
-                                            <figure>
-                                                <img alt="" src="img/portfolio/img-8.jpg">
-                                                <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Brand</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-8.jpg"></a>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-
-                                        <!-- Portfolio Item -->
-                                        <div class="item col-lg-4 col-sm-6 brand">
-                                            <figure>
-                                                <img alt="" src="img/portfolio/img-9.jpg">
-                                                <figcaption>
-                                                    <h3>Project Name</h3>
-                                                    <p>Graphic</p><i class="fas fa-image"></i>
-                                                    <a class="image-link" href="img/portfolio/img-9.jpg"></a>
+                                                    <h3>BT mug official</h3>
+                                                    <p>merch</p><i class="fas fa-shopping-basket"></i>
+                                                    <a class="image-link" data-toggle="tooltip"
+                                                        title="Interest? Buy on Direct Messages"
+                                                        href="https://instagram.com/bintangj.exe"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
                                     </div>
                                 </section>
-                            </div> --}}
+                            </div>
                             <!-- Blog Section -->
                             {{-- <div class="page pt-blog" data-simplebar>
                                 <section class="container">
@@ -1243,7 +1203,12 @@
     <script src="{!!asset('js/main-demo.js')!!}"></script>
     <script type='text/javascript'
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIus-_huNW25Jl7RPmHgoGZjD5udgBMI'></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
 
+    </script>
 </body>
 
 </html>
