@@ -902,7 +902,7 @@
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
                                                     <a class="image-link" data-toggle="tooltip"
                                                         title="Interest? Buy on Direct Messages"
-                                                        href="https://instagram.com/bintangj.exe"></a>
+                                                        href="https://www.tokopedia.com/starwhisper/bt-official-hoodie-jacket"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -930,7 +930,7 @@
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
                                                     <a class="image-link" data-toggle="tooltip"
                                                         title="Interest? Buy on Direct Messages"
-                                                        href="https://instagram.com/bintangj.exe"></a>
+                                                        href="https://www.tokopedia.com/starwhisper/bt-official-t-shirt"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -944,7 +944,7 @@
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
                                                     <a class="image-link" data-toggle="tooltip"
                                                         title="Interest? Buy on Direct Messages"
-                                                        href="https://instagram.com/bintangj.exe"></a>
+                                                        href="https://www.tokopedia.com/starwhisper/bt-official-snapback"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
