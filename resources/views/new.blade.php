@@ -43,25 +43,41 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
 
-    {{-- SOCIAL MEDIA TAGS --}}
-    {{-- FACEBOOK SOCMED --}}
+
+
     <meta property="fb:admins" content="111044563749542">
     <meta property="og:title" content="Oh hi! I'm Bintang Tobing">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{URL::current()}}">
-    <meta property="og:image" content="{!!asset('storage/img/cover.jpg')!!}">
+    <meta property="og:url" content="https://bintangtobing.com">
+    <meta property="og:image" content="https://bintangtobing.com/storage/img/cover.jpg">
     <meta property="og:description" content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and
         personal completeness in this digital age.">
     <meta property="og:site_name" content="Bintang Tobing.">
-    {{-- TWITTER SOCMED --}}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@bintangjtobing">
-    <meta name="twitter:creator" content="@bintangjtobing">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bintangtobing.com">
+    <meta property="twitter:title" content="Oh hi! I'm Bintang Tobing">
+    <meta property="twitter:description"
+        content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and personal completeness in this digital age.">
+    <meta property="twitter:image" content="https://bintangtobing.com/storage/img/cover.jpg">
 
 </head>
 
 <body>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Bintang Tobing",
+            "url": "https://bintangtobing.com",
+            "address": "Jl Pelita IV Gang Aman No 7 Medan",
+            "sameAs": [
+                "https://facebook.com/bintangjexe",
+                "https://instagram.com/bintangj.exe"
+            ]
+        }
 
+    </script>
     <!-- Preloader -->
     <div id="preloader">
         <div class="loading-area">
