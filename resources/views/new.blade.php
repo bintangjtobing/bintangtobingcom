@@ -175,13 +175,14 @@
                                     <!-- Social -->
                                     <div class="social">
                                         <ul>
-                                            <li><a href="https://facebook.com/bintangjexe"><i
+                                            <li><a href="https://facebook.com/bintangjexe" target="_blank"><i
                                                         class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="https://instagram.com/bintangj.exe"><i
+                                            <li><a href="https://instagram.com/bintangj.exe" target="_blank"><i
                                                         class="fab fa-instagram"></i></a></li>
-                                            <li><a href="https://twitter.com/bintangjtobing"><i
-                                                        class="fab fa-twitter"></i></a>
-                                            </li>
+                                            <li><a href="https://twitter.com/bintangjtobing" target="_blank"><i
+                                                        class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://github.com/bintangjtobing" target="_blank"><i
+                                                        class="fab fa-github"></i></a></li>
                                         </ul>
                                     </div>
                                 </section>
