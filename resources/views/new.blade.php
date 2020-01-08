@@ -73,7 +73,8 @@
             "address": "Jl Pelita IV Gang Aman No 7 Medan",
             "sameAs": [
                 "https://facebook.com/bintangjexe",
-                "https://instagram.com/bintangj.exe"
+                "https://instagram.com/bintangj.exe",
+                "https://twitter.com/bintangjtobing"
             ]
         }
 
