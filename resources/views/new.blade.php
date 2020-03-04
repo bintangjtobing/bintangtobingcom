@@ -146,8 +146,23 @@
                             </nav>
 
                             <!-- Home Section -->
-                            <div class="pt-home" style="background-image: url('storage/img/bg.jpg')"
-                                alt="background Bintang Tobing">
+                            {{-- <div class="pt-home" style="background-image: url('storage/img/bg.jpg')"
+                                alt="background Bintang Tobing"> --}}
+                            <div class="pt-home">
+                                {{-- <div class="addition-bg">
+
+                                    <!-- YouTube Video -->
+                                    <div id="video-container">
+                                        <div id="play-video" class="player"
+                                            data-property="{videoURL: 'jb4G-VzdS10', containment: '#video-container', showControls: false, autoPlay: true, loop: true, vol: 50, mute: false, startAt: 0, stopAt: 0, opacity: 1, addRaster: false, quality: 'large', optimizeDisplay: true, ratio: 16/9}">
+                                        </div>
+                                    </div>
+                                </div> --}}
+                                <div class="addition-bg">
+
+                                    <!-- Html Video -->
+                                    <div class="html-video-container" data-vide-bg="video/binvid.mp4"></div>
+                                </div>
                                 <section>
 
                                     <!-- Banner -->
@@ -1228,6 +1243,12 @@
     <script src="{!!asset('js/main-demo.js')!!}"></script>
     <script type='text/javascript'
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIus-_huNW25Jl7RPmHgoGZjD5udgBMI'></script>
+    <script src="{!!asset('js/vide.js')!!}"></script>
+    <script src="{!!asset('js/jquery.mb.YTPlayer.js')!!}"></script>
+    <script>
+        $("#play-video").YTPlayer();
+
+    </script>
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
