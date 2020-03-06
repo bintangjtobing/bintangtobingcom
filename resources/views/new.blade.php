@@ -73,7 +73,7 @@
             "address": "Jl Pelita IV Gang Aman No 7 Medan",
             "sameAs": [
                 "https://facebook.com/bintangjexe",
-                "https://instagram.com/bintangj.exe",
+                "https://instagram.com/bintangjtobing",
                 "https://twitter.com/bintangjtobing"
             ]
         }
@@ -171,7 +171,7 @@
                                         <h1>Bintang Tobing</h1>
                                         <p class="cd-headline rotate-1">
                                             <span>I am a</span>
-                                            <span class="cd-words-wrapper">
+                                            <span class="cd-words-wrapper" style="font-weight:700;">
                                                 <b class="is-visible">Developer</b>
                                                 <b>Designer</b>
                                                 <b>Freelancer</b>
@@ -192,7 +192,7 @@
                                         <ul>
                                             <li><a href="https://facebook.com/bintangjexe" target="_blank"><i
                                                         class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="https://instagram.com/bintangj.exe" target="_blank"><i
+                                            <li><a href="https://instagram.com/bintangjtobing" target="_blank"><i
                                                         class="fab fa-instagram"></i></a></li>
                                             <li><a href="https://twitter.com/bintangjtobing" target="_blank"><i
                                                         class="fab fa-twitter"></i></a></li>
@@ -277,7 +277,7 @@
                                                     <div class="col-lg-3 col-sm-12">
                                                         {{-- <a href="#" class="btn-st">See my stories</a>
                                                         <p>On Instagram</p> --}}
-                                                        <a href="https://instagram.com/bintangj.exe" target="_blank">
+                                                        <a href="https://instagram.com/bintangjtobing" target="_blank">
                                                             <div class="info-icon">
                                                                 <i class="fab fa-instagram"></i>
                                                                 <div class="desc-icon">
@@ -953,7 +953,7 @@
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
                                                     <a class="image-link" data-toggle="tooltip"
                                                         title="Interest? Buy on Direct Messages"
-                                                        href="https://instagram.com/bintangj.exe"></a>
+                                                        href="https://instagram.com/bintangjtobing"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -998,7 +998,7 @@
                                                     <p>merch</p><i class="fas fa-shopping-basket"></i>
                                                     <a class="image-link" data-toggle="tooltip"
                                                         title="Interest? Buy on Direct Messages"
-                                                        href="https://instagram.com/bintangj.exe"></a>
+                                                        href="https://instagram.com/bintangjtobing"></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
