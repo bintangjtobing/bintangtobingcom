@@ -11,8 +11,14 @@
 |
 */
 
+use Illuminate\Support\Facades\Redirect;
+
 Route::get('/', function () {
-    return view('new');
+    return view('welcome');
+});
+Route::get('/youtube', function () {
+    // return view('home.youtube');
+    return Redirect::to('http://www.youtube.com/c/BintangJeremiaTobing');
 });
 Route::get('/dark', function () {
     return view('dark');

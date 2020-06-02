@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="MD23XAsqv9D3qtHbVHbHfHoGDO8gQzYLI1jBN6Fha8M" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Bintang Tobing, Web Developer, Freelance, Jasa Bintang Tobing, Bintang">
     <meta name="description"
@@ -14,7 +13,6 @@
         content="This website is made for personal satisfaction and personal completeness in this digital age. This website is made by Bintang Tobing." />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
-    <meta name="msvalidate.01" content="85BB1F108E1BB71008A6260F2D262234" />
     <title>I'm Bintang Tobing</title>
     <script src="https://kit.fontawesome.com/ae026c985d.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon"
