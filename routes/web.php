@@ -14,12 +14,28 @@
 use Illuminate\Support\Facades\Redirect;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('new');
 });
+// SOCIAL MEDIA
 Route::get('/youtube', function () {
-    // return view('home.youtube');
     return Redirect::to('http://www.youtube.com/c/BintangJeremiaTobing');
 });
+Route::get('/twitter', function () {
+    return Redirect::to('http://www.twitter.com/bintangjtobing');
+});
+Route::get('/linkedin', function () {
+    return Redirect::to('http://www.linkedin.com/in/bintangtobing');
+});
+Route::get('/instagram', function () {
+    return Redirect::to('http://www.instagram.com/bintangjtobing');
+});
+Route::get('/github', function () {
+    return Redirect::to('http://www.github.com/bintangjtobing');
+});
+Route::get('/facebook', function () {
+    return Redirect::to('https://facebook.com/bintangjtobing');
+});
+
 Route::get('/dark', function () {
     return view('dark');
 });

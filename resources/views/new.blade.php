@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {{-- VERIFICATION --}}
     <meta name="google-site-verification" content="MD23XAsqv9D3qtHbVHbHfHoGDO8gQzYLI1jBN6Fha8M" />
     <meta name="msvalidate.01" content="85BB1F108E1BB71008A6260F2D262234" />
 
     <!-- Meta -->
-    <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="{!!asset('storage/img/icon-64x.png')!!}" alt="icon BT">
@@ -43,19 +44,19 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
 
-
-
+    {{-- SOCIAL MEDIA TAGS --}}
+    {{-- FACEBOOK SOCMED --}}
     <meta property="fb:admins" content="111044563749542">
     <meta property="og:title" content="Oh hi! I'm Bintang Tobing">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bintangtobing.com">
-    <meta property="og:image" content="https://bintangtobing.com/storage/img/cover.jpg">
+    <meta property="og:url" content="{{URL::current()}}">
+    <meta property="og:image" content="{!!asset('storage/img/cover.jpg')!!}">
     <meta property="og:description" content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and
         personal completeness in this digital age.">
     <meta property="og:site_name" content="Bintang Tobing.">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://bintangtobing.com">
+    <meta property="twitter:url" content="{{URL::current()}}">
     <meta property="twitter:title" content="Oh hi! I'm Bintang Tobing">
     <meta property="twitter:description"
         content="Bintang Tobing page is made for personal creative curriculum vitae. Also for personal satisfaction and personal completeness in this digital age.">
@@ -161,7 +162,8 @@
                                 <div class="addition-bg">
 
                                     <!-- Html Video -->
-                                    <div class="html-video-container" data-vide-bg="video/binvid.mp4"></div>
+                                    <div class="html-video-container" data-vide-bg="video/binvid-new-compress.mp4">
+                                    </div>
                                 </div>
                                 <section>
 
@@ -190,14 +192,18 @@
                                     <!-- Social -->
                                     <div class="social">
                                         <ul>
-                                            <li><a href="https://facebook.com/bintangjexe" target="_blank"><i
+                                            <li><a href="/facebook" target="_blank"><i
                                                         class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="https://instagram.com/bintangjtobing" target="_blank"><i
+                                            <li><a href="/github" target="_blank"><i class="fab fa-github"></i></a></li>
+                                            <li><a href="/instagram" target="_blank"><i
                                                         class="fab fa-instagram"></i></a></li>
-                                            <li><a href="https://twitter.com/bintangjtobing" target="_blank"><i
-                                                        class="fab fa-twitter"></i></a></li>
-                                            <li><a href="https://github.com/bintangjtobing" target="_blank"><i
-                                                        class="fab fa-github"></i></a></li>
+                                            <li><a href="/linkedin" target="_blank"><i
+                                                        class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="/twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="/youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                            </li>
+
                                         </ul>
                                     </div>
                                 </section>
@@ -222,7 +228,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-3 col-sm-4">
                                                         <div class="photo">
-                                                            <img alt="" src="{!!asset('storage/img/user.jpg')!!}">
+                                                            <img alt="User" src="{!!asset('storage/img/user.jpg')!!}">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-9 col-sm-8">
