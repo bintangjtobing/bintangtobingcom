@@ -195,6 +195,8 @@
                                             <li><a href="/facebook" target="_blank"><i
                                                         class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="/github" target="_blank"><i class="fab fa-github"></i></a></li>
+                                            <li><a href="/ask-fm" target="_blank"><i
+                                                        class="fas fa-question-circle"></i></a></li>
                                             <li><a href="/instagram" target="_blank"><i
                                                         class="fab fa-instagram"></i></a></li>
                                             <li><a href="/linkedin" target="_blank"><i

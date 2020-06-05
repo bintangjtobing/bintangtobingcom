@@ -17,8 +17,14 @@ Route::get('/', function () {
     return view('new');
 });
 // SOCIAL MEDIA
+Route::get('/mau-liat-apa-nih', function () {
+    return view('linktree.index');
+});
 Route::get('/youtube', function () {
     return Redirect::to('http://www.youtube.com/c/BintangJeremiaTobing');
+});
+Route::get('/ask-fm', function () {
+    return Redirect::to('https://ask.fm/hello3438');
 });
 Route::get('/twitter', function () {
     return Redirect::to('http://www.twitter.com/bintangjtobing');
