@@ -115,6 +115,9 @@
                                     <li data-tooltip="home" data-position="top">
                                         <a href="#home" class="icon-h fas fa-home"></a>
                                     </li>
+                                    <li data-tooltip="More" data-position="top">
+                                        <a href="/mau-liat-apa-nih" class="icon-h far fa-eye"></a>
+                                    </li>
                                     <li data-tooltip="about" data-position="top">
                                         <a href="#about" class="icon-a fas fa-user-circle"></a>
                                     </li>
