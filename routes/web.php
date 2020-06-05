@@ -11,6 +11,7 @@
 |
 */
 
+use App\Mail\kembangkanlahMail;
 use Illuminate\Support\Facades\Redirect;
 
 Route::get('/', function () {
@@ -19,6 +20,10 @@ Route::get('/', function () {
 // SOCIAL MEDIA
 Route::get('/mau-liat-apa-nih', function () {
     return view('linktree.index');
+});
+Route::get('/kirim-vote/{tokens}', function () {
+    \Mail::to('hello@bintangtobing.com')->send(new kembangkanlahMail);
+    return redirect('/mau-liat-apa-nih')->with('sukses', 'Dukungan kamu telah dikirim. Makasih ya.');
 });
 Route::get('/youtube', function () {
     return Redirect::to('http://www.youtube.com/c/BintangJeremiaTobing');
