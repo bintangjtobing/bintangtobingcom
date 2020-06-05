@@ -20,8 +20,8 @@
         <!-- Header -->
         <header id="header" class="alt">
             <span class="logo"><img src="linktree/images/logobt.svg" alt="" /></span>
-            <p>What do you looking for?<br>
-                built by <a href="https://instagram.com/bintangjtobing">@bintangjtobing</a>.
+            <p>Mau cari apa nih?<br>
+                Dibuat oleh <a href="https://instagram.com/bintangjtobing">@bintangjtobing</a>.
             </p>
         </header>
         <!-- Introduction -->
@@ -55,7 +55,7 @@
             <section>
                 <h2>Tertarik dengan fitur ini?</h2>
                 <p>Fitur ini dibuat untuk keperluan pribadi. Dikarenakan website linkt**** terlalu terbatas dan harganya
-                    juga lumayan untuk fitur seperti itu. Jika kalian tertarik denga fitur lengkap seperti ini. Mungkin
+                    juga lumayan untuk fitur seperti itu. Jika kalian tertarik dengan fitur lengkap seperti ini. Mungkin
                     saya bisa pertimbangkan untuk mengembangkan fitur ini ke publik. Pertimbangannya bisa dengan voting.
                     Jika banyak dari kalian yang request fitur ini. Saya akan mengembangkannya dan mempublikasikannya
                     secara gratis, tidak ada biaya apapun untuk mendapatkan fitur lengkap seperti ini.</p>
@@ -66,24 +66,22 @@
                 </ul>
             </section>
             <section>
-                <h2>Etiam feugiat</h2>
+                <h2>Jangan segan untuk menghubungiku</h2>
                 <dl class="alt">
-                    <dt>Address</dt>
-                    <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-                    <dt>Phone</dt>
-                    <dd>(000) 000-0000 x 0000</dd>
                     <dt>Email</dt>
-                    <dd><a href="#">information@untitled.tld</a></dd>
+                    <dd><a href="#">hello@bintangtobing.com</a></dd>
                 </dl>
                 <ul class="icons">
-                    <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-                    <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+                    <li><a href="/twitter" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a>
+                    </li>
+                    <li><a href="/facebook" class="icon brands fa-facebook-f alt"><span
+                                class="label">Facebook</span></a></li>
+                    <li><a href="/instagram" class="icon brands fa-instagram alt"><span
+                                class="label">Instagram</span></a></li>
+                    <li><a href="/github" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
                 </ul>
             </section>
-            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            <p class="copyright">&copy; Bintang Tobing - Mau cari apa nih?</p>
         </footer>
 
     </div>
