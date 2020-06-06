@@ -151,7 +151,12 @@
                                                         <span style="">Halo Bintang, </strong>,</span></p>
                                                     <p style="text-align: left;  word-break: break-word;   margin: 0;">
                                                         <span style="">1 orang lagi bertambah untuk mendukung
-                                                            pengembangan fitur aplikasi ini. Ayo semangat!!</span></p>
+                                                            pengembangan fitur aplikasi ini. Ayo semangat!!</span>
+                                                        <br>
+
+                                                        Vote berasal dari ip public: {{$getIp}}
+                                                        <?php $getIp = \Request::getClientIp(true); ?>
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!--[if mso]></td></tr></table><![endif]-->
